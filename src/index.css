@@ -115,7 +115,7 @@
   }
 
   .status-pending {
-    @apply bg-yellow-100 text-yellow-800;
+    @apply bg-onboard-green-100 text-onboard-green-800;
   }
 
   .status-approved {

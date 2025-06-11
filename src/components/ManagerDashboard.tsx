@@ -101,10 +101,10 @@ const ManagerDashboard = () => {
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-sm font-medium text-gray-600">Pending Actions</p>
-                  <p className="text-2xl font-bold text-yellow-600">16</p>
+                  <p className="text-2xl font-bold text-onboard-green-600">16</p>
                 </div>
-                <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center">
-                  <svg className="w-6 h-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="w-12 h-12 bg-onboard-green-100 rounded-lg flex items-center justify-center">
+                  <svg className="w-6 h-6 text-onboard-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
@@ -190,7 +190,7 @@ const ManagerDashboard = () => {
 
                     <div className="text-center min-w-[100px]">
                       <div className="text-sm text-gray-500">Pending Actions</div>
-                      <div className="text-lg font-semibold text-yellow-600">
+                      <div className="text-lg font-semibold text-onboard-green-600">
                         {joiner.pendingItems}
                       </div>
                     </div>
